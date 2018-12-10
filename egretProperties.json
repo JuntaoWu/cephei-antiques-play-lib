@@ -1,0 +1,58 @@
+{
+  "engineVersion": "5.2.12",
+  "compilerVersion": "5.2.12",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "experimental"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "puremvc",
+      "path": "../3rdparty-libs/puremvc"
+    },
+    {
+      "name": "lodash",
+      "path": "../3rdparty-libs/lodash"
+    },
+    {
+      "name": "photon",
+      "path": "../3rdparty-libs/photon"
+    }
+  ]
+}

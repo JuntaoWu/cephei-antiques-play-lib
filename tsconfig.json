@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"declaration": true,
+		"outFile": "bin/antiques-play-lib.js",
+		"lib": [
+			"es2017",
+			"dom",
+			"es2015.promise"
+		]
+	},
+	"include": [
+		"src",
+		"libs"
+	]
+}
